@@ -1,0 +1,4 @@
+- Create a VM with linux and visual code to be the local machine.
+- The target machine will be the local machine 
+- Project will create and run make files
+- Anul 4 SSC (Securitatea sistemelor de calcul) starts with Buffer Overflow ``%s`` example from [[Course 7 - C Strings]]

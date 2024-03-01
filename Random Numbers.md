@@ -1,0 +1,9 @@
+- The C programming language can generate **pseudo-random** numbers (they depend on a seed).
+	- As a seed, we can use the elapsed time since ``epoc`` (1 jan 1980 - first linux kernel started)
+	- To achieve this use ``srand(time(NULL))`` 
+		- This requires ``time.h`` and ``stdlib.h`` libraries
+		- The seed should only be initialised once, at the beginning of the main function.
+		- Since time since ``epoc`` is returned in seconds, programs that are executed with a delta time of less than a second will have the same seed, hence return the same random numbers.
+- The only example of so-called "true random" generators are quantum generators. 
+- www.random.cs.upt.ro - Random generator that uses university's quantum generator.
+- ``Mihai Udrescu`` - The person who is responsible with quantum computers in UPT - Teacher at year 2.
